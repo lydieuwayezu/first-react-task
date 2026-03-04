@@ -4,21 +4,21 @@ function App() {
   const employees = [
     {
       id: 1,
-      name: "Liliane nyakayiru",
+      name: "Liliane ",
       role: "Software Engineer",
       department: "web designer",
       avatar: "/images/person1.PNG"
     },
     {
       id: 2,
-      name: "lydie uwayezu",
+      name: "lydie",
       role: "Product Manager",
       department: "Product",
       avatar: "/images/person2.jpg"  
     },
     {
       id: 3,
-      name: "Lydie uwaayezu",
+      name: " uwase",
       role: "front-end developer",
       department: "Design",
       avatar: "/images/person3.jpg"  
