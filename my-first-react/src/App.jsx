@@ -31,3 +31,17 @@ function App() {
       <h1 className="text-4xl font-bold text-center text-gray-800 mb-10">ID Card Generator</h1>
       <div className="flex flex-wrap justify-center gap-6">
         {employees.map((employee) => (
+
+  <IdCard
+            key={employee.id}
+            id={employee.id}
+            name={employee.name}
+            role={employee.role}
+            department={employee.department}
+            avatar={employee.avatar}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
