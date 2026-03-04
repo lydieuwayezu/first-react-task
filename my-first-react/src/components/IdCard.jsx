@@ -1,14 +1,14 @@
 const IdCard = ({ id, name, role, department, avatar }) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg p-6 w-80 border-2 border-gray-200">
+    <div className="bg-white rounded-lg shadow-lg p-6 w-80 border-2 border-gray-400">
       <div className="flex items-center gap-4 mb-4">
         <img 
           src={avatar} 
           alt={name} 
-          className="w-20 h-20 rounded-full object-cover border-2 border-blue-500"
+          className="w-20 h-20 rounded-full object-cover border-2 border-blue-600"
         />
         <div className="flex-1">
-          <h2 className="text-xl font-bold text-gray-800">{name}</h2>
+          <h2 className="text-xl font-bold text-gray-700">{name}</h2>
           <p className="text-sm text-gray-500">ID: {id}</p>
         </div>
       </div>
