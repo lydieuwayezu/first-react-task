@@ -23,3 +23,11 @@ function App() {
       department: "Design",
       avatar: "/images/person3.jpg"  // Put your image in public/images/
     }
+    
+  ];
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-12 px-4">
+      <h1 className="text-4xl font-bold text-center text-gray-800 mb-10">ID Card Generator</h1>
+      <div className="flex flex-wrap justify-center gap-6">
+        {employees.map((employee) => (
